@@ -1,16 +1,4 @@
 
-/*
-   document.getElementById('speedSubmit').addEventListener('mouseup', function() {
-   console.log('here');
-   try {
-   var val = parseFloat(document.getElementById('speedField').value);
-   localStorage["youtube-settings"] = val;
-   } catch (ex) {
-   alert(ex.message);
-   }
-   });
-   */
-
 $(document).ready(function() {
 
     $("#speedSubmit").mouseup(function() {
